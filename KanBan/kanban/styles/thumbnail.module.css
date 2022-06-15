@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+.cardDiv {
+	display: flex;
+	position: relative;
+	width: 250px;
+	height: 170px;
+	background: rgba(255, 248, 248, 0.97);
+	box-shadow: -6px 4px 0px 3px rgb(0 0 0 / 15%);
+	border-radius: 7px 9px 0px 24px;
+	margin-top: 15px;
+	border: solid 0.2px rgb(95, 191, 188);
+}
+
+.cardtitles {
+	width: 226px;
+	height: 1rem;
+	left: 105px;
+	bottom: 255px;
+	text-align: left;
+	font-family: 'Fira Sans Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #113055;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+
+.infocontainer {
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	left: 1rem;
+}
+
+.cardinfos {
+	font-family: 'Fira Sans Condensed';
+	/* font-family: 'Amiko'; */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+
+	line-height: 2;
+	color: #000000;
+	margin: 6px;
+}
+
+.dateTexto {
+	font-family: 'Amiko';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 11px;
+	color: rgba(0, 178, 202, 0.6);
+}
+
+.divjunction {
+	display: flex;
+	flex-direction: column;
+}

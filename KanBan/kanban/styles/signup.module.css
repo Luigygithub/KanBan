@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@600&display=swap');
+
+.body {
+  display: flex;
+  position: absolute;
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, #00B2CA 0%, rgba(39, 130, 142, 0) 100%), #113055;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 85%;
+  width: 85%;
+  background: #FBFFFF;
+  border-radius: 93px;
+}
+
+.button1 {
+  background: #113055;
+  color: white;
+  box-shadow: 3px 7px 2px -4px rgb(0 0 0 / 25%);
+  border-radius: 42px;
+  position: relative;
+  width: 160px;
+  height: 48px;
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+.button1:active {
+  background: linear-gradient(180deg, #113055 0%, #00B2CA 100%);
+  box-shadow: 3px 7px 2px -4px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+
+
+.containerE1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+  position: relative;
+  height: 85%;
+  width: 85%;
+  background: #FBFFFF;
+  border-radius: 93px;
+  /* font-size: large; */
+
+
+}
+
+
+.containerD1 {
+  display: flex;
+  position: relative;
+  height: 71vh;
+  margin-top: 62px;
+  align-items: baseline;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0; */
+  padding-right: 0px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 42px;
+  border-color: #00B2CA;
+  width: 320px;
+  height: 42px;
+  margin-bottom: 24px;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.5px;
+  line-height: 20px;
+  color: #00B2CA;
+  border: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem1 {
+  display: flex;
+  margin-top: 45vh;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 21px;
+  display: flex;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #113055
+}
+
+.emailPass {
+  display: flex;
+  width: 10vw;
+  height: 16vh;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: flex-end;
+}
+
+.label {
+  padding: 0;
+  margin: 0;
+}
+
+.fontSignUp {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  background: linear-gradient(180deg, #00B2CA 0%, #000000 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 25px;
+}
+
+.fontSigninfo {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.fontDetails {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #00B2CA;
+}
+
+.imgLogo {
+  width: 451px;
+  height: 113px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  background: linear-gradient(180deg, #00B2CA 0%, #000000 75%);
+}
+
+.checkbox:checked {
+  background: linear-gradient(180deg, #113055 0%, #00B2CA 100%);
+}
+
+.imgLogo {
+  width: 451px;
+  height: 113px;
+}
+
+.fontPassword{
+  border: solid 2px red;
+}
+
+.inputCheck{
+  /* display: inline-block; */
+  position: relative;
+  right: 180px;
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  /* bottom: 2px; */
+
+}

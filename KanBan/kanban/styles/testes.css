@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@600&display=swap');
+
+.buttonBack{
+  z-index: 10;
+  position: relative;
+}
+
+.body {
+  display: flex;
+  position: absolute;
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+	left: 0px;
+	top: 0px;
+  background: linear-gradient(180deg, #819396 0%, rgba(39, 130, 142, 0) 100%), #113055;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logoDivlock {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 85%;
+  width: 85%;
+  background: #FBFFFF;
+  border-radius: 93px;
+}
+
+.fontQuote {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  background: linear-gradient(180deg, #819396 0%, rgba(39, 130, 142, 0) 100%), #113055;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+
+.fontAboutUs {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #113055;
+  text-decoration: none;
+}
+
+.fontAboutUs:hover {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: linear-gradient(180deg, #819396 0%, rgba(39, 130, 142, 0) 100%), #113055;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+
+.fontCopyright {
+  display: flex;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #113055
+}
+
+.containerE1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 45%;
+}
+
+.containerD1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+
+}
+
+.button1:active {
+  background: linear-gradient(180deg, #113055 0%, #00B2CA 100%);
+  box-shadow: 3px 7px 2px -4px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+.button1 {
+
+  background: #314789;
+  color: white;
+  box-shadow: 3px 7px 2px -4px rgb(0 0 0 / 25%);
+  border-radius: 13px;
+  position: relative;
+  width: 178px;
+  height: 32px;
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 15px;
+  /* line-height: 30px; */
+  color: rgba(255, 255, 255, 0.97);
+  bottom: 50px;
+  left: 13px;
+  margin-right: 10px;
+} 
+
+.verticalContainer1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  padding: 1rem;
+
+}
+
+.verticalContainer2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
+.boxInfo {
+  display: flex;
+  justify-content: flex-start;
+  width: 40vw;
+  height: 70vh;
+  background: linear-gradient(180deg, #819396 -20%, rgba(39, 130, 142, 0) 100%), #113055;
+  border-radius: 46px 24px 24px 240px;
+  flex-direction: row-reverse;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.image {
+  position: relative;
+  left: 4vw;
+  bottom: 3vh;
+}
+
+.image2 {
+  width: 125%;
+  height: 25%;
+}
+.span1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+}
+
+.description {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.description2{
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.menu{
+  display: flexbox;
+  height: auto;
+  width: auto;
+}

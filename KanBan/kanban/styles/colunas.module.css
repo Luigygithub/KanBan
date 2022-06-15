@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+.maindiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(180deg, #00B2CA 20.83%, #113055 100%);
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.header {
+	display: flex;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 91.94%;
+	background: #FBFFFF;
+	box-shadow: -5px 16px 0px -9px rgb(0 0 0 / 25%);
+	
+	align-items: center;
+}
+
+.logoPossi {
+	position: relative;
+	left: 45%;
+}
+
+.containerColunas {
+	position: relative;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 354px;
+	height: 782px;
+	background: #FBFFFF;
+	box-shadow: -5px 16px 0px -9px rgb(0 0 0 / 25%);
+	border-radius: 14px;
+	border-radius: 10px;
+	left: 19px;
+	top: 18px;
+}
+
+.colunaDiv {
+	display: inline-flex;
+	flex-direction: row;
+	width: 19vw;
+
+	justify-content: space-around;
+}
+
+.bottomdiv {
+	position: absolute;
+	top: 10%;
+	display: flex;
+	flex-direction: row;
+}
+
+.textocoluna {
+	font-family: 'Libre Franklin';
+	font-style: normal;
+	font-weight: 1500;
+	font-size: 25px;
+	line-height: 30px;
+	background: linear-gradient(180deg, #2e7881 0%, #113055 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	top: 5px;
+	position: relative;
+
+
+}
+
+.addBottom {
+	background: #113055;
+	color: white;
+	box-shadow: 3px 7px 2px -4px rgb(0 0 0 / 25%);
+	border-radius: 42px;
+	position: fixed;
+	left: 50px;
+	top: 12px;
+
+	width: 202px;
+	height: 42px;
+	font-family: 'Fira Sans Condensed';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.97);
+}
+
+.addBottom:active {
+	background: linear-gradient(180deg, #113055 0%, #00B2CA 100%);
+	box-shadow: 3px 7px 2px -4px rgba(0, 0, 0, 0.25);
+	transform: translateY(4px);
+  }
+
+  .logoutbutton{
+	background: #00b2caff;
+	color: white;
+	box-shadow: 3px 7px 2px -4px rgb(0 0 0 / 25%);
+	border-radius: 42px;
+	position: fixed;
+	right: 50px;
+	top: 12px;
+
+	width: 100px;
+	height: 42px;
+	font-family: 'Fira Sans Condensed';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.97);
+  }

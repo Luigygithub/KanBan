@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@600&display=swap');
+
+
+.formMaindiv {
+	background: rgba(234, 251, 251);
+    box-shadow: -6px 4px 0px 3px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    position: fixed;
+    width: 75%;
+    height: 75%;
+    left: 334px;
+    top: 121px;
+    display: flex;
+    align-items: flex-start;
+    z-index: 10;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: space-around;
+	/* border-color: #113055;
+	background-color: aliceblue; */
+}
+
+.formMaindiv2 {
+    background: rgb(234, 251, 251);
+    box-shadow: -6px 4px 0px 3px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 75%;
+    height: 75%;
+    left: 334px;
+    top: 121px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+	/* border-color: #113055;
+	background-color: aliceblue; */
+}
+
+
+
+.fontDisplay {
+	font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-size: 18px;
+    background: linear-gradient(180deg, #113055 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formFormat {
+	border: none;
+    margin-top: 12px;
+    width: 30vw;
+}
+
+.fontTitle {
+	font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #113055;
+}
+
+/* .placeHolder {
+	font-family: 'Amiko';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #00B2CA;
+} */
+
+.placeHolderBox {
+	background: rgba(221, 245, 248, 0.5);
+	border: 1px solid rgba(0, 178, 202, 0.15);
+	border-radius: 7px;
+	font-family: 'Amiko';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #00B2CA;
+}
+
+.placeHolderBox:hover {
+	background: rgba(17, 48, 85, 0.75);
+	border-radius: 6px;
+	color: #00E1FF;
+}
+
+.placeholder2{
+	background: rgba(221, 245, 248, 0.5);
+	border: 2px solid rgb(31, 78, 83);
+	border-radius: 7px;
+	font-family: 'Amiko';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #00B2CA;
+	display: flex;
+    flex-direction: column;
+    align-items: stretch;
+	height: 80px;
+    justify-content: space-evenly;
+}
